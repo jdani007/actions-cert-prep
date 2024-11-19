@@ -27,6 +27,8 @@ jobs:
     runs-on: ubuntu-latest
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: checkout repo
+        uses: actions/checkout@v4
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: cat james.txt
