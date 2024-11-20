@@ -33,7 +33,7 @@ jobs:
       - name: Run a one-line script
         run: cat james.txt
       - name: Get Secrets
-        run: |
-          echo ${{ secrets.SECRET_KEY }} > testfile
-          cat testfile
+        run: echo ${{ secrets.SECRET_KEY }}
+      - name: Get Env
+        run: echo ${{ env.ENV_KEY }}
         
