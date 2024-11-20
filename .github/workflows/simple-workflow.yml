@@ -25,6 +25,8 @@ jobs:
     needs: initial_job
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    env:
+      ENV_KEY: noodle
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: checkout repo
@@ -33,5 +35,5 @@ jobs:
       - name: Run a one-line script
         run: cat james.txt
       - name: Get Env
-        run: echo ${{ env.ENV_KEY }}
+        run: echo $ENV_KEY
         
