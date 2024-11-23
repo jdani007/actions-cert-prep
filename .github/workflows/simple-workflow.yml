@@ -20,6 +20,8 @@ jobs:
       contents: read
       packages: write
     steps:
+      - name: Echo Variables
+        run: echo ${{ vars.TEST }}
       - name: Login to Github Container Registry
         uses: docker/login-action@v3
         with:
