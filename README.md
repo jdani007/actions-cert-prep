@@ -1,1 +1,1 @@
-[GITHUB-BADGE](https://github.com/jdani007/actions-cert-prep/workflows/CI/badge.svg)
+[![Build and Deploy](https://github.com/jdani007/actions-cert-prep/actions/workflows/simple-workflow.yml/badge.svg)](https://github.com/jdani007/actions-cert-prep/actions/workflows/simple-workflow.yml)
