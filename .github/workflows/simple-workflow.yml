@@ -15,7 +15,7 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build_and_push:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     permissions:
       contents: read
       packages: write
