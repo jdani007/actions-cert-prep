@@ -16,6 +16,7 @@ jobs:
   # This workflow contains a single job called "build"
   build_and_push:
     runs-on: self-hosted
+    environment: temp 
     permissions:
       contents: read
       packages: write
