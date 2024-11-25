@@ -22,4 +22,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-go@v5
-      - run: go build main.go
+      - run: go build -o amazingapp main.go
